@@ -1,7 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <rect x="25" y="25" width="200" height="200" fill="lime" stroke-width="4" stroke="pink" />
+<svg 
+    style="margin: 3em auto"
+    xmlns="http://www.w3.org/2000/svg" version="1.1" width="440" height="440" viewBox="0 0 23 22">
+<!--
+    <rect x="25" y="25" width="200" height="200" fill="lime" stroke-width="8" stroke="pink" />
     <circle cx="125" cy="125" r="75" fill="orange" />
-    <polyline points="50,150 50,200 200,200 200,100" stroke="red" stroke-width="4" fill="none" />
-    <line x1="50" y1="50" x2="200" y2="200" stroke="blue" stroke-width="4" />
+    <polyline points="50,150 50,200 200,200 200,100" stroke="red" stroke-width="8" fill="none" />
+    <line x1="50" y1="50" x2="200" y2="200" stroke="blue" stroke-width="8" />
+-->
+
+    <rect x="0" y="0" width="23" height="22" fill="#eee" stroke-width="0" />
+
+    <!--over and unders-->
+    <rect x="2" y="2" width="19" height="2" fill="blue" stroke-width="0" />
+    <rect x="2" y="18" width="19" height="2" fill="blue" stroke-width="0" />
+
+    <!--uprights-->
+    <rect x="8" y="7" width="2" height="8" fill="blue" stroke-width="0" />
+    <rect x="13" y="7" width="2" height="8" fill="blue" stroke-width="0" />
+
+    <!--crossbar-->
+    <rect x="8" y="10" width="7" height="2" fill="blue" stroke-width="0" />
+
+
+    <line x1="01" y1="0" x2="01" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="02" y1="0" x2="02" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="03" y1="0" x2="03" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="04" y1="0" x2="04" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="05" y1="0" x2="05" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="06" y1="0" x2="06" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="07" y1="0" x2="07" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="08" y1="0" x2="08" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="09" y1="0" x2="09" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="10" y1="0" x2="10" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="11" y1="0" x2="11" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="12" y1="0" x2="12" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="13" y1="0" x2="13" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="14" y1="0" x2="14" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="15" y1="0" x2="15" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="16" y1="0" x2="16" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="17" y1="0" x2="17" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="18" y1="0" x2="18" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="19" y1="0" x2="19" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="20" y1="0" x2="20" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="21" y1="0" x2="21" y2="22" stroke="#ccc" stroke-width="0.05" />
+    <line x1="22" y1="0" x2="22" y2="22" stroke="#ccc" stroke-width="0.05" />
+
+    <line y1="01" x1="0" y2="01" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="02" x1="0" y2="02" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="03" x1="0" y2="03" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="04" x1="0" y2="04" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="05" x1="0" y2="05" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="06" x1="0" y2="06" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="07" x1="0" y2="07" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="08" x1="0" y2="08" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="09" x1="0" y2="09" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="10" x1="0" y2="10" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="11" x1="0" y2="11" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="12" x1="0" y2="12" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="13" x1="0" y2="13" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="14" x1="0" y2="14" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="15" x1="0" y2="15" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="16" x1="0" y2="16" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="17" x1="0" y2="17" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="18" x1="0" y2="18" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="19" x1="0" y2="19" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="20" x1="0" y2="20" x2="23" stroke="#ccc" stroke-width="0.05" />
+    <line y1="21" x1="0" y2="21" x2="23" stroke="#ccc" stroke-width="0.05" />
+
 </svg>
 
